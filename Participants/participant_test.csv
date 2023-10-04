@@ -9,3 +9,4 @@ Q3, Hard,48.18883,(b) liver,False,Avatar,2,How is your day going?;How is your da
 Q4, Hard,0.665802,(b) frontal lobe,False,Avatar,0,,
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
