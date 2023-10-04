@@ -1,2 +1,1 @@
-# ChatGPTMR
-ChatGPT project formatted for augmented reality
+# ChatGPT_MR
