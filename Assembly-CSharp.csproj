@@ -144,7 +144,6 @@
     <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\REDIST.txt" />
     <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -168,6 +167,7 @@
     <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.core.dll" />
     <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\SpeechSDK\REDIST.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\MRTK\Shaders\DepthBufferPostProcess.shader" />

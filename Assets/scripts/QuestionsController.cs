@@ -41,7 +41,7 @@ public class QuestionsController : MonoBehaviour
 
         //first choice is bolded
         bolded = 1;
-        question.fontSize = 48;
+        question.fontSize = 40;
 
 
         question.text = "A 50-year-old male presents with difficulty breathing and chest pain. Imaging reveals an occlusion of the left anterior descending(LAD) coronary artery. Which of the following areas of the heart is most likely affected by the occlusion?";
@@ -56,7 +56,7 @@ public class QuestionsController : MonoBehaviour
         tracker.StartTime();
         tracker.numInteractions = 0;
 
-        question.fontSize = 57;
+        question.fontSize = 51;
 
 
         question.text = "A patient presents with a stabbing pain in their left chest, radiating to their left arm. Which of the following anatomical structures is most likely affected?";
@@ -72,7 +72,7 @@ public class QuestionsController : MonoBehaviour
         tracker.numInteractions = 0;
 
         bolded = 1;
-        question.fontSize = 33;
+        question.fontSize = 27;
 
 
         question.text = "A patient presents with a sharp pain in the right upper quadrant of their abdomen, which radiates to the right shoulder. They report feeling nauseous and have a low-grade fever. Other symptoms may include nausea, vomiting, and fever. The liver is located in the upper right side of the abdomen and produces bile, which is stored in the gallbladder. The pancreas is located behind the stomach and produces digestive enzymes and hormones, while the stomach is located in the upper left side of the abdomen and is responsible for digesting food. Which of the following structures is most likely affected?";
@@ -88,7 +88,7 @@ public class QuestionsController : MonoBehaviour
         tracker.numInteractions = 0;
 
 
-        question.fontSize = 42;
+        question.fontSize = 35;
 
 
         question.text = "A patient presents with weakness and tingling in their hands and feet, along with difficulty maintaining balance. On physical examination, they have decreased reflexes and muscle weakness, tingling, and numbness in the hands and feet, as well as difficulty maintaining balance. Which of the following structures is most likely affected?";
