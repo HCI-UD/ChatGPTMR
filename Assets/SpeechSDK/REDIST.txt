@@ -9,6 +9,7 @@ Microsoft.CognitiveServices.Speech.extension.embedded.sr.dll
 Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll
 Microsoft.CognitiveServices.Speech.extension.embedded.tts.dll
 Microsoft.CognitiveServices.Speech.extension.kws.dll
+Microsoft.CognitiveServices.Speech.extension.kws.ort.dll
 Microsoft.CognitiveServices.Speech.extension.lu.dll
 Microsoft.CognitiveServices.Speech.extension.mas.dll
 Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll
@@ -33,6 +34,7 @@ libMicrosoft.CognitiveServices.Speech.extension.embedded.tts.dylib
 libMicrosoft.CognitiveServices.Speech.extension.embedded.tts.so
 libMicrosoft.CognitiveServices.Speech.extension.embedded.tts.runtime.so
 libMicrosoft.CognitiveServices.Speech.extension.kws.so
+libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so
 libMicrosoft.CognitiveServices.Speech.extension.lu.so
 libMicrosoft.CognitiveServices.Speech.extension.mas.so
 libMicrosoft.CognitiveServices.Speech.extension.onnxruntime.dylib
