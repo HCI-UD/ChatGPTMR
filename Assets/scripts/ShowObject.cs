@@ -6,7 +6,9 @@ using TMPro;
 public class ShowObject : MonoBehaviour
 {
 
-    public GameObject _object;
+    public GameObject BoardObj;
+    public GameObject AvatarObj;
+    public GameObject BothButt;
     public GameObject GPTBoardButt;
     public GameObject AvatarBoardButt;
     public GameObject easy;
@@ -25,11 +27,26 @@ public class ShowObject : MonoBehaviour
      * 
      */
     public void show()
-    {
-        _object.SetActive(true); //show object (GPT canvas or Avatar)
-        tracker.method = _object.name; //Assigns object name to 'tracker.method' for tracking
+    {   
+        if (gameObject == BothButt)
+        {
+            BoardObj.SetActive(true);
+            AvatarObj.SetActive(true);
+            tracker.method = "both";
+        } else if (gameObject == GPTBoardButt)
+        {
+            BoardObj.SetActive(true);
+            tracker.method = "board";
+        } else if (gameObject == AvatarBoardButt)
+        {
+            AvatarObj.SetActive(true);
+            tracker.method = "avatar";
+        }
+        //_object.SetActive(true); //show object (GPT canvas or Avatar)
+        //tracker.method = _object.name; //Assigns object name to 'tracker.method' for tracking
         GPTBoardButt.SetActive(false); //
         AvatarBoardButt.SetActive(false);
+        BothButt.SetActive(false);
         boardQ.text = "Waiting on user input";
         boardR.text = "";
         easy.SetActive(true);
