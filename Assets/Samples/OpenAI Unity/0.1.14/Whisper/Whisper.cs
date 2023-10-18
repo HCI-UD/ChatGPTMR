@@ -11,7 +11,7 @@ namespace OpenAI
         public TextMeshProUGUI input;
         public MakeRequest makereq;
         public TextMeshProUGUI safe;
-        public GameObject TTS;
+        public GameObject Avatar;
         public int microphone;
 
         private readonly string fileName = "output.wav";
@@ -35,7 +35,7 @@ namespace OpenAI
          */
         public void StartRecording()
         {
-            TTS.GetComponent<AudioSource>().Stop(); //Stops for interrupt
+            Avatar.GetComponent<AudioSource>().Stop(); //Stops for interrupt
             input.text = "Listening...";
             isRecording = true;
 

@@ -1,1 +1,12 @@
 
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q3, Hard,21.29939,(a) gallbladder,True,Avatar,1,;,I'm sorry- but it is not possible to provide a complete response using only 64 tokens for the API. The model requires more tokens to generate meaningful and accurate responses. The minimum token limit for the API is 4 tokens- and it is recommended to have at least 10 tokens to get a useful response.;
+Q4, Hard,0.8540497,(a) brainstem,False,Avatar,0,,
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q3, Hard,11.9137,(a) gallbladder,True,Avatar,1,Hello- how are you?;,I'm doing well- thank you!;
+Q4, Hard,0.161108,(a) brainstem,False,Avatar,0,,
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q3, Hard,0.9551578,(a) gallbladder,True,Avatar,0,,
+Q4, Hard,0.1471257,(a) brainstem,False,Avatar,0,,

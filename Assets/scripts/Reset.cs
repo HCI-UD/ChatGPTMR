@@ -11,6 +11,7 @@ public class Reset : MonoBehaviour
     public GameObject BoardButt;
     public GameObject AvatarButt;
     public GameObject ResetButt;
+    public GameObject ExitButt;
 
     /*
      * Resets the entire program, permits user to try again under different parameters
@@ -28,5 +29,6 @@ public class Reset : MonoBehaviour
         BoardButt.SetActive(true); //show GPT Board button
         AvatarButt.SetActive(true); //show Avatar button
         ResetButt.SetActive(false); //hide reset button
+        ExitButt.SetActive(false); //hide exit button
     }
 }
