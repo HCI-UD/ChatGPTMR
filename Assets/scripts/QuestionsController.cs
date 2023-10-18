@@ -18,6 +18,7 @@ public class QuestionsController : MonoBehaviour
     public GameObject RightButt;
     public GameObject RecordButt;
     public GameObject SelectButt;
+    public GameObject ExitButt;
 
     public Tracking tracker;
     
@@ -116,10 +117,12 @@ public class QuestionsController : MonoBehaviour
         option4.text = "";
 
         ResetButt.SetActive(true); //show reset
+        ExitButt.SetActive(true); //show exit
         LeftButt.SetActive(false); //hide left
         RightButt.SetActive(false); //hide right
         SelectButt.SetActive(false); //hide select
         RecordButt.SetActive(false); //hide record
+        
 
         //make first = false for next set of questions (first tells us if its the first question or not)
         SelectButt.GetComponent<Select>().first = false;

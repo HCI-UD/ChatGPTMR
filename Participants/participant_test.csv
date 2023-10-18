@@ -1,31 +1,12 @@
 
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q3, Hard,21.29939,(a) gallbladder,True,Avatar,1,;,I'm sorry- but it is not possible to provide a complete response using only 64 tokens for the API. The model requires more tokens to generate meaningful and accurate responses. The minimum token limit for the API is 4 tokens- and it is recommended to have at least 10 tokens to get a useful response.;
+Q4, Hard,0.8540497,(a) brainstem,False,Avatar,0,,
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Q1, Easy,19.04149,(c) left ventricle,True,GPT Canvas,1,What does the liver do?;,The liver metabolizes nutrients- detoxifies harmful substances- produces bile for digestion- stores vitamins and minerals- and regulates blood sugar levels.;
-Q2, Easy,18.46458,(c) spleen,False,GPT Canvas,1,How is your day going?;,My day is going well- thank you!;
-Q3, Hard,48.18883,(b) liver,False,Avatar,2,How is your day going?;How is your day going?;,My day is going well- thank you!;My day is going well- thank you!;
-Q4, Hard,0.665802,(b) frontal lobe,False,Avatar,0,,
+Q3, Hard,11.9137,(a) gallbladder,True,Avatar,1,Hello- how are you?;,I'm doing well- thank you!;
+Q4, Hard,0.161108,(a) brainstem,False,Avatar,0,,
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Q1, Easy,32.19643,(b) right atrium,False,GPT Canvas,1,What does the liver do?;,The liver is responsible for detoxifying chemicals- metabolizing drugs- producing bile- storing vitamins- regulating blood sugar- and breaking down old blood cells;
-Q2, Easy,7.167511,(c) spleen,False,GPT Canvas,0,,
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Q1, Easy,31.09774,(a) left atrium,False,GPT Canvas,0,,
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Q1, Easy,2.359597,(a) left atrium,False,GPT Canvas,0,,
-Q2, Easy,0.8011255,(a) left lung,False,GPT Canvas,0,,
-Q3, Hard,18.99278,(a) gallbladder,True,GPT Canvas,0,,
-Q4, Hard,13.63172,(a) brainstem,False,GPT Canvas,0,,
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Q1, Easy,81.29549,(a) left atrium,False,GPT Canvas,3,What the... oh- sorry I don't have a...;;What area of the heart prevents breathing?;,I apologize- but I'm unable to provide a response with only 64 tokens. The minimum requirement for a meaningful response is 5 tokens. Could you please provide a bit more context or ask a specific question?;I'm sorry- but it is not possible to provide a complete response using only 64 tokens. The response would be too limited and may not make sense. The OpenAI GPT-3 model requires more tokens to generate meaningful and coherent responses.;The heart is not directly responsible for preventing breathing. The respiratory center in the brainstem controls breathing.;
-Q2, Easy,31.67212,(c) spleen,False,GPT Canvas,1,What anatomical structure makes stabbing pain?;,The structure responsible for stabbing pain is the nervous system.;
-Q3, Hard,57.68666,(c) pancreas,False,Avatar,1,How is your day doing?;,My day is going well- thank you!;
-Q4, Hard,4.368744,(c) spinal cord,False,Avatar,0,,
+Q3, Hard,0.9551578,(a) gallbladder,True,Avatar,0,,
+Q4, Hard,0.1471257,(a) brainstem,False,Avatar,0,,
