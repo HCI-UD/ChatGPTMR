@@ -9,3 +9,6 @@ For any and all questions, please contact me at gavcaul@udel.edu
 
 # Installation Video
 [![Video Title](https://img.youtube.com/vi/CR11_s1qHyg/0.jpg)](https://www.youtube.com/watch?v=CR11_s1qHyg)
+
+# Known Issues
+Please visit the issues tab to add/review known issues
