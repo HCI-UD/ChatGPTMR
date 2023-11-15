@@ -12,3 +12,6 @@ For any and all questions, please contact me at gavcaul@udel.edu
 
 # Known Issues
 Please visit the issues tab to add/review known issues
+
+# Other
+I have forked this repo and implemented a multiplayer version. Found [here](https://github.com/gavincaul/ChatGPTMRMultiplayer)
