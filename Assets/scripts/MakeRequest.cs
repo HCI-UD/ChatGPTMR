@@ -31,8 +31,9 @@ public class MakeRequest : MonoBehaviour
             output.text = "Sorry, but I didn't seem to get an input. Please try again";
             if (avatar.activeSelf) { speak.GetComponent<UIManager>().SpeechPlayback(); }
         }
-        else { 
-            var openai = new OpenAIApi();
+        else {
+            output.text = input.text;
+            /*var openai = new OpenAIApi();
             try
             {
                 requestCompleted = false;
@@ -88,7 +89,7 @@ public class MakeRequest : MonoBehaviour
             catch (Exception ex)
             {
                 Debug.LogError("An error occurred during the API request: " + ex.Message);
-            }
+            }*/
         }
     }
    
