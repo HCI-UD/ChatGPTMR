@@ -633,7 +633,7 @@ PlayerSettings:
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
-  scriptingRuntimeVersion: 1
+  scriptingRuntimeVersion: 4.x
   gcIncremental: 1
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
