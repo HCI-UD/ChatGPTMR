@@ -21,6 +21,7 @@ public class KeywordListener : MonoBehaviour
             {
                 Debug.Log("here");
                 recordButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
+                shouldListen = false;
             }
         });
 

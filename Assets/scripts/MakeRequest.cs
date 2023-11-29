@@ -15,6 +15,7 @@ public class MakeRequest : MonoBehaviour
     public GameObject avatar;
     public Tracking tracker;
     private bool requestCompleted;
+    public GameObject listener;
 
     /*
      * Makes the request to chatGPT, grabs ChatGPT's reponse, and plays it (if necessary)
@@ -91,6 +92,7 @@ public class MakeRequest : MonoBehaviour
                 Debug.LogError("An error occurred during the API request: " + ex.Message);
             }*/
         }
+        listener.GetComponent<KeywordListener>().shouldListen = true; //might need to change this for more specific screen changes
     }
    
 
