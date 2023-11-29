@@ -33,8 +33,7 @@ public class MakeRequest : MonoBehaviour
             if (avatar.activeSelf) { speak.GetComponent<UIManager>().SpeechPlayback(); }
         }
         else {
-            output.text = input.text;
-            /*var openai = new OpenAIApi();
+            var openai = new OpenAIApi();
             try
             {
                 requestCompleted = false;
@@ -90,7 +89,7 @@ public class MakeRequest : MonoBehaviour
             catch (Exception ex)
             {
                 Debug.LogError("An error occurred during the API request: " + ex.Message);
-            }*/
+            }
         }
         listener.GetComponent<KeywordListener>().shouldListen = true; //might need to change this for more specific screen changes
     }
