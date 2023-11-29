@@ -12,6 +12,7 @@ public class MicrophoneSelect : MonoBehaviour
     public MicrophoneLeft Left;
     public MicrophoneRight Right;
     public MicrophoneSelect Select;
+    public GameObject both;
     public GameObject board;
     public GameObject avatar;
     public TextMeshProUGUI question;
@@ -25,6 +26,7 @@ public class MicrophoneSelect : MonoBehaviour
         Select.gameObject.SetActive(false);
         board.SetActive(true);
         avatar.SetActive(true);
+        both.SetActive(true);
         foreach (TextMeshProUGUI mic in options)
         {
             Destroy(mic);
