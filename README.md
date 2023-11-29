@@ -21,12 +21,12 @@ To do this, follow these steps:
 * Create a file called auth.json in the .openai folder
 * Add an api_key field and a organization field (if applicable) to the auth.json file and save it  
 Here is an example of what your auth.json file should look like:
-code(
+```
 {
     "api_key": "sk-...W6yi",
     "organization": "org-...L7W"
 }
-)
+```
 # Known Issues
 Please visit the issues tab to add/review known issues
 
