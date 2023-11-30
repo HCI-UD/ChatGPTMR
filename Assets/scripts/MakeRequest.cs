@@ -43,14 +43,14 @@ public class MakeRequest : MonoBehaviour
                 {
                     //Ideal model, but can be tweaked with for future models
                     Model = "gpt-3.5-turbo",
-                    MaxTokens = 2048,
+                    MaxTokens = 256,
                     Messages = new List<ChatMessage>
                         {
                             new ChatMessage()
                             {
                                 Role = "user",
                                 //input.text = User Question
-                                Content = $"{input.text}; use only 1024 tokens for api",
+                                Content = $"{input.text}; use only 256 tokens for api",
 
 
                             }
