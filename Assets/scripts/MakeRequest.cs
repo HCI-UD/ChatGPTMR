@@ -33,6 +33,7 @@ public class MakeRequest : MonoBehaviour
             if (avatar.activeSelf) { speak.GetComponent<UIManager>().SpeechPlayback(); }
         }
         else {
+            output.text = input.text;
             var openai = new OpenAIApi();
             try
             {
