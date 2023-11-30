@@ -27,6 +27,7 @@ public class MakeRequest : MonoBehaviour
      */
     public void Request()
     {
+        listener.GetComponent<KeywordListener>().shouldListen = true;
         if (input.text == "")
         {
             output.text = "Sorry, but I didn't seem to get an input. Please try again";
@@ -42,14 +43,14 @@ public class MakeRequest : MonoBehaviour
                 {
                     //Ideal model, but can be tweaked with for future models
                     Model = "gpt-3.5-turbo",
-                    MaxTokens = 64,
+                    MaxTokens = 2048,
                     Messages = new List<ChatMessage>
                         {
                             new ChatMessage()
                             {
                                 Role = "user",
                                 //input.text = User Question
-                                Content = $"{input.text}; use only 64 tokens for api",
+                                Content = $"{input.text}; use only 1024 tokens for api",
 
 
                             }
@@ -62,6 +63,7 @@ public class MakeRequest : MonoBehaviour
                     {
                         var result = string.Join("", responses.Select(response => response.Choices[0].Delta.Content));
                         output.text = result;
+                        //Debug.Log(result);
                     },
                     () =>
                     {
