@@ -10,6 +10,7 @@ public class Reset : MonoBehaviour
     public GameObject avatar;
     public GameObject BoardButt;
     public GameObject AvatarButt;
+    public GameObject BothButt;
     public GameObject ResetButt;
     public GameObject ExitButt;
 
@@ -26,6 +27,7 @@ public class Reset : MonoBehaviour
         title.text = "Waiting on User Input...";
         GPT.SetActive(false); //hide GPT Board
         avatar.SetActive(false); //hide Avatar
+        BothButt.SetActive(true);
         BoardButt.SetActive(true); //show GPT Board button
         AvatarButt.SetActive(true); //show Avatar button
         ResetButt.SetActive(false); //hide reset button
