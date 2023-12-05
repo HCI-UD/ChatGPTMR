@@ -11,6 +11,7 @@ public class KeywordListener : MonoBehaviour
     Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
     public bool shouldListen = true;
     public GameObject recordButton;
+    public GameObject selectButton;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +20,17 @@ public class KeywordListener : MonoBehaviour
         {
             if (shouldListen && (recordButton!=null))
             {
-                Debug.Log("here");
+                Debug.Log("wake");
                 recordButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
                 shouldListen = false;
+            }
+        });
+        keywords.Add("select", () =>
+        {
+            if (shouldListen && selectButton != null)
+            {
+                Debug.Log("select");
+                selectButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
             }
         });
 
