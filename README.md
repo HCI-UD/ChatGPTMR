@@ -11,7 +11,7 @@ For any and all questions, please contact me at gavcaul@udel.edu
 [![Video Title](https://img.youtube.com/vi/CR11_s1qHyg/0.jpg)](https://www.youtube.com/watch?v=CR11_s1qHyg)
 
 # How to use Chat GPT API
-The following instructions are credited to user **[srcnalt]**(https://github.com/srcnalt)
+The following instructions are credited to user **[srcnalt](https://github.com/srcnalt)**
 
 Saving Your Credentials
 To make requests to the OpenAI API, you need to use your API key and organization name (if applicable). To avoid exposing your API key in your Unity project, you can save it in your device's local storage.
