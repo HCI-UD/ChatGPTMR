@@ -61,7 +61,8 @@ namespace OpenAI
                 Model = "gpt-3.5-turbo-0613",
                 Messages = messages
             });
-
+           
+                    
             if (completionResponse.Choices != null && completionResponse.Choices.Count > 0)
             {
                 var message = completionResponse.Choices[0].Message;
