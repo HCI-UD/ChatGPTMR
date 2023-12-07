@@ -1,0 +1,27 @@
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q1, Easy,89.46543,(a) left atrium,False,Avatar + Board,2,when it is going to be snowing again in Delaware;Who is the father of artificial intelligence?;,I'm sorry- but I cannot provide real-time weather information as I am a language model and do not have access to current data. However- you can use weather APIs like OpenWeatherMap or Weatherbit to get the latest weather updates for Delaware. Here's an example of how you can make a request to the OpenWeatherMap API using 256 tokens:
+
+```python
+import requests
+
+api_key = "YOUR_API_KEY"
+city = "Delaware"
+
+url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
+
+response = requests.get(url)
+data = response.json()
+
+if response.status_code == 200:
+    weather = data["weather"][0]["main"]
+    print(f"The current weather in Delaware is {weather}.")
+else:
+    print("Failed to retrieve weather information.")
+```
+
+Make sure to replace "YOUR_API_KEY" with your actual API key from OpenWeather;The father of artificial intelligence is considered to be John McCarthy. He coined the term "artificial intelligence" in 1956 and played a significant role in the development of AI as a field of study. McCarthy was an American computer scientist and cognitive scientist who made substantial contributions to AI research- including the development of the Lisp programming language. His work laid the foundation for many AI techniques and technologies that are still;
+Q2, Easy,1.008415,(a) left lung,False,Avatar + Board,0,,
+Q3, Hard,97.99149,(a) gallbladder,True,Avatar + Board,3,how many pawns are there in the game chess;What is the current situation in Andhra Pradesh?;who won the Australian Open in the year 2000.;,There are a total of 16 pawns in a game of chess.;As of now- Andhra Pradesh is facing various challenges. The state is dealing with the COVID-19 pandemic- with increasing cases and efforts to control the spread. Additionally- there are ongoing development projects- including infrastructure and industrial growth. The government is also focusing on improving healthcare- education- and welfare programs for the people. However- specific details and recent updates can be obtained from reliable news sources.;I'm sorry- but I cannot provide the answer within 256 tokens as it exceeds the limit. However- you can easily find the answer by searching for "Australian Open 2000 winner";
+Q4, Hard,0.3330841,(a) brainstem,False,Avatar + Board,0,,
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q1, Easy,83.05878,(a) left atrium,False,Avatar + Board,1,What is the functionality of heart and lung?;,The heart is responsible for pumping oxygenated blood throughout the body- supplying oxygen and nutrients to the organs and tissues. It also helps remove waste products from the body. The lungs- on the other hand- facilitate the exchange of oxygen and carbon dioxide during the process of respiration. Oxygen is taken in through inhalation- and carbon dioxide is expelled through exhalation. Together- the heart and lungs ensure the delivery of oxygen to the body's cells and the removal;

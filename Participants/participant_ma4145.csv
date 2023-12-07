@@ -1,0 +1,49 @@
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q1, Easy,194.1901,(a) left atrium,False,Avatar + Board,3,Who's the director of the film Titanic?;Hold the right mouse.;Who's the director of the film Titanic?;,The director of the film Titanic;To hold the right mouse button using OpenAI's GPT-3 API and limit the response to 256 tokens- you can use the following code:
+
+```python
+import openai
+
+openai.api_key = 'YOUR_API_KEY'
+
+def generate_response(prompt):
+    response = openai.Completion.create(
+        engine='text-davinci-003'-
+        prompt=prompt-
+        max_tokens=256-
+        temperature=0-
+        n=1-
+        stop=None-
+        temperature=0.7-
+        top_p=1-
+        frequency_penalty=0-
+        presence_penalty=0
+    )
+    return response.choices[0].text.strip()
+
+prompt = "Hold the right mouse."
+
+response = generate_response(prompt)
+print(response)
+```
+
+Make sure to replace `'YOUR_API_KEY'` with your actual OpenAI API key.
+
+This code uses the OpenAI Completion API and sets the `max_tokens` parameter to 256- which limits the response to 256 tokens. The `prompt` is set to "Hold the right mouse." and the `temperature` is set to 0.7 to control the randomness of the generated text.
+
+The `generate_response` function sends a request to the API and returns the generated text.;The director of;
+Q2, Easy,0.5111237,(a) left lung,False,Avatar + Board,0,,
+Q3, Hard,128.2838,(a) gallbladder,True,Avatar + Board,3,And you'll see down there when it recognizes that you say it.;Okay- you said it- I'll do it.;How far is New York from California?;,I'm sorry- but I'm not sure what you're referring to. Could you please provide more context;Sure- I understand that you want to limit the number of tokens used for an API call. OpenAI's GPT-3 model has a maximum token limit of 4096 tokens. However- if you want to use only 256 tokens- you will need to make sure that your input text and output text combined do not exceed this limit.
+
+Here are a few tips to help you stay within the token limit:
+
+1. Keep your input text concise: Try to provide clear and concise instructions or prompts to the model. Avoid unnecessary details or lengthy explanations.
+
+2. Use shorter sentences: Break down your text into shorter sentences or phrases. This will help reduce the overall token count.
+
+3. Avoid unnecessary repetition: Minimize redundant or repetitive information in your input text. If a certain context or instruction is already provided- there is no need to repeat it.
+
+4. Use truncation or summarization techniques: If your input text is too long- consider truncating or summarizing it while preserving the essential information. However- be cautious not to lose important context.
+
+5. Use the `max_tokens` parameter: When making an API call- you can set the `max_tokens` parameter to limit the response length. This will ensure that the output text also;New York and California are approximately 2-800 miles apart;
+Q4, Hard,0.2839355,(a) brainstem,False,Avatar + Board,0,,

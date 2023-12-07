@@ -1,0 +1,5 @@
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q1, Easy,77.83365,(a) left atrium,False,Avatar + Board,1,you;,I apologize- but I'm not sure what you mean by "use only 256 tokens for API." Could you please provide more context;
+Q2, Easy,0.9998016,(a) left lung,False,Avatar + Board,0,,
+Q3, Hard,64.38589,(a) gallbladder,True,Avatar + Board,1,you;,I apologize- but I'm unable to fulfill your request. As an AI language model- my responses are generated based on a large pre-trained model that exceeds the token limit you specified. The underlying model requires more than 256 tokens to provide accurate;
+Q4, Hard,0.51651,(a) brainstem,False,Avatar + Board,0,,

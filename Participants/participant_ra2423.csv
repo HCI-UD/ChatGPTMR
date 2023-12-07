@@ -1,0 +1,8 @@
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Q1, Easy,52.32897,(a) left atrium,False,Avatar + Board,1,you;,I apologize- but I'm unable to fulfill your request. The OpenAI GPT-3 model- which powers this AI- requires more than 256 tokens to generate meaningful responses. The model has a maximum token limit of 4096 tokens.;
+Q2, Easy,1.220421,(a) left lung,False,Avatar + Board,0,,
+Q3, Hard,86.40832,(a) gallbladder,True,Avatar + Board,1,you;,I apologize- but I'm unable to fulfill your request. The OpenAI GPT-3 model- which powers this AI- requires more than 256 tokens to generate meaningful responses. The model has a maximum token limit of;
+Q4, Hard,0.5504608,(a) brainstem,False,Avatar + Board,0,,
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
+Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
