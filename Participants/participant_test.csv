@@ -52,7 +52,6 @@ Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Intera
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
-Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Q1, Easy,4.763944,(a) left atrium,False,Board,0,,
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
@@ -96,5 +95,8 @@ Q1, Easy,41.31343,(c) left ventricle,True,Avatar + Board,0,,
 Q2, Easy,8.61879,(a) left lung,False,Avatar + Board,0,,
 Q3, Hard,1.559193,(a) gallbladder,True,Board,0,,
 Q4, Hard,0.4652557,(a) brainstem,False,Board,0,,
+=======
+Q1, Easy,16.96854,(a) left atrium,False,GPT Canvas,1,you;,I will make sure to use only 64 tokens per response.;
+Q2, Easy,0.198782,(a) left lung,False,GPT Canvas,0,,
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
 Question,Difficulty,Time Spent,Option Chose,Correct?,GPT Medium,Number of Interactions,GPT Question(s) (separated by ; '-' = comma),GPT Response(s)
