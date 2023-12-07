@@ -25,7 +25,7 @@ public class KeywordListener : MonoBehaviour
                 shouldListen = false;
             }
         });
-        keywords.Add("select", () =>
+        keywords.Add("choose", () =>
         {
             if (shouldListen && selectButton != null)
             {
