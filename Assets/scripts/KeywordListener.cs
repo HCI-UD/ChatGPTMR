@@ -12,6 +12,8 @@ public class KeywordListener : MonoBehaviour
     public bool shouldListen = true;
     public GameObject recordButton;
     public GameObject selectButton;
+    public GameObject leftButton;
+    public GameObject rightButton;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,22 @@ public class KeywordListener : MonoBehaviour
                 Debug.Log("select");
                 selectButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
             }
+        });
+        keywords.Add("left", () => {
+            if (shouldListen && leftButton != null)
+            {
+                Debug.Log("left");
+                leftButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
+            }
+
+        });
+        keywords.Add("right", () => {
+            if (shouldListen && rightButton != null)
+            {
+                Debug.Log("right");
+                rightButton.GetComponent<ButtonConfigHelper>().OnClick.Invoke();
+            }
+
         });
 
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
